@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an idea to make Kinovy kinder or more useful.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. Every suggestion helps shape Kinovy.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What is your idea?
+      description: Describe what you would like Kinovy to do.
+      placeholder: It would help if the daily log could...
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this help?
+      description: Tell us about the problem this solves for you.
+    validations:
+      required: false

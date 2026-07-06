@@ -1,0 +1,47 @@
+name: Bug report
+description: Something in Kinovy is not working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this. A few details help us fix it faster.
+        Please do not include private health information.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+      placeholder: When I tap the mood field, the app...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the Today tab
+        2. Tap ...
+        3. See ...
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where did this happen?
+      options:
+        - iOS
+        - Android
+        - Web
+        - macOS
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version (if known)
+      placeholder: e.g. 1.0.0
+    validations:
+      required: false

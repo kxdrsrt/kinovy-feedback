@@ -1,4 +1,8 @@
-# Kinovy Feedback
+<p align="center">
+  <img src="assets/logo_mark_512.png" alt="Kinovy logo" width="96" height="96" />
+</p>
+
+<h1 align="center">Kinovy Feedback</h1>
 
 Welcome, and thank you for helping make Kinovy kinder.
 
